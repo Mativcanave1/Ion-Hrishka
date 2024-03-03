@@ -1,0 +1,117 @@
+body ,html{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(6,6,255,1) 52%, rgba(0,212,255,1) 100%);
+    background-size: cover;
+    background-position: center;
+    color: #333;
+}
+.container {
+    max-width: 800px;
+    padding: 20px;
+    margin: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: block;
+}
+.comments {
+    max-width: 800px;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: block;
+}
+.page {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(33%, 1fr));
+    grid-gap: 20px;
+}
+h1 {
+    color: #333;
+}
+.menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.3s ease-in-out;
+}
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+.menu li {
+    margin-bottom: 10px;
+}
+.menu a {
+    text-decoration: none;
+    color: #007bff;
+}
+.menu a:hover {
+    text-decoration: underline;
+}
+.reg {
+    max-width: 400px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(225, 225, 225);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.archive {
+    max-width: 800px;
+    padding: 20px;
+    margin: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: block;
+}
+img {
+    max-width: 33%;
+    margin: 5px;
+    border-radius: 10px;
+}
