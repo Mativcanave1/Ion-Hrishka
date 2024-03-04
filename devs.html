@@ -5,8 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Разработчики</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="devs.css">
 </head>
 <body>
-    
+    <div class="header">
+        <button onclick="toggleMenu()">Меню</button>
+        <div id="menu" class="menu">
+            <ul>
+                <li><a href="about.html">О Иване Хришке</a></li>
+                <li><a href="archive.html">Архив фотографий Иона Хришки с 1488 года</a></li>
+                <li><a href="devs.html">Авторы</a></li>
+                <li><a href="Main.html">Домашняя страница</a></li>
+            </ul>
+        </div>
+    </div>
+<script>
+function toggleMenu() {
+    var menu = document.getElementById('menu');
+    if (menu.style.display === 'block') {
+        menu.style.display = 'none';
+    } else {
+        menu.style.display = 'block';
+    }
+}
+</script>
+
+    <div class="dev-grid">
+        <div class="dev-card">
+            <img src="" alt="">
+            <h1 class="dev-title">Herm "Fuhrrer"</h1>
+            <p>Самый уважаемый, сексуальный, и с большим членом. CEO компании "Ion Hrishca pidor"</p>
+            <button class="button">Больше</button>
+        </div>
+
+        <div class="dev-card">
+            <img src="" alt="">
+            <h1 class="dev-title">Ywxig "Stab von Fuhrrer"</h1>
+            <p>Гений, милиордер, плейбой, фурри. технический директор компании "Ion Hrishca pidor"</p>
+            <button class="button">Больше</button>
+        </div>
+
+        <div class="dev-card">
+            <img src="" alt="">
+            <h1 class="dev-title">Глиномес "Obberstormfurrer"</h1>
+            <p></p>
+            <button class="button">Больше</button>
+        </div>
+    </div>
+
 </body>
 </html>
