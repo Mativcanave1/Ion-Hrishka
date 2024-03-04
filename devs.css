@@ -1,0 +1,38 @@
+/*Карточка разработчика*/
+.dev-card {
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+/* Контейнер для сетки разработчиков */
+.dev-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 20px;
+}
+
+/* Заголовок разработчиков */
+.dev-title {
+    color: #006efd;
+
+}
+
+  /* Стиль для кнопок */
+  button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: var(--dark-color);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  }
+  
