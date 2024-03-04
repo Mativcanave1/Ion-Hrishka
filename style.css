@@ -28,8 +28,8 @@ body ,html{
 }
 .page {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(33%, 1fr));
-    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: auto;
 }
 h1 {
     color: #333;
@@ -114,4 +114,12 @@ img {
     max-width: 33%;
     margin: 5px;
     border-radius: 10px;
+}
+
+.header {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    margin: 5px;
 }
