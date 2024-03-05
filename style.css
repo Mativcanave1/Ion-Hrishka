@@ -28,7 +28,7 @@ body ,html{
 }
 .page {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(33%, 1fr));
     grid-gap: auto;
 }
 h1 {
